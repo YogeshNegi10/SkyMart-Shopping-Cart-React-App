@@ -41,6 +41,7 @@ const Navbar = () => {
           <div className="  hidden md:flex md:items-center md:justify-center md:gap-5 ">
             <NavLink
               to="/"
+               onClick={handleShow}
               className={({ isActive }) =>
                 `inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 ${
                   isActive ? "bg-gray-100" : "text-gray-500"
@@ -52,6 +53,7 @@ const Navbar = () => {
 
             <NavLink
               to="/about"
+               onClick={handleShow}
               className={({ isActive }) =>
                 `inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 ${
                   isActive ? "bg-gray-100" : "text-gray-500"
@@ -62,6 +64,7 @@ const Navbar = () => {
             </NavLink>
             <NavLink
               to="/contact"
+               onClick={handleShow}
               className={({ isActive }) =>
                 `inline-block rounded-lg px-2 py-1 text-sm font-medium text-gray-900 transition-all duration-200 hover:bg-gray-100 hover:text-gray-900 ${
                   isActive ? "bg-gray-100" : "text-gray-500"
