@@ -102,7 +102,7 @@ setInputData('')
         pauseOnHover={false}
       />
 
-      <div className="container mt-6 mx-auto relative -z-10">
+      <div className="container mt-6 mx-auto">
         <h1 className="mb-10 text-center text-3xl ">
           Cart Items ({cart.length})
         </h1>
